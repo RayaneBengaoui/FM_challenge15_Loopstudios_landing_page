@@ -103,3 +103,30 @@ li {
     padding-bottom: 2rem;
   }
 }
+
+// Creation section
+
+#creation-section {
+  min-height: 100vh;
+}
+
+.top-container {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  grid-gap: 2rem;
+}
+
+.card {
+  img {
+    width: 100%;
+  }
+}
