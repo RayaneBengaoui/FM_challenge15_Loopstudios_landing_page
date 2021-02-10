@@ -1,4 +1,4 @@
-html {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -21,5 +21,60 @@ li,
 p {
   font-family: "Alata", sans-serif;
   font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+.spacing {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/desktop/image-hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 65vh;
+}
+
+nav {
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-width: 30rem;
+}
+
+li {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  max-width: 40rem;
+  margin-top: 8rem;
+  border: 2px solid white;
+  padding: 2rem 5rem 2rem 3rem;
 }
 /*# sourceMappingURL=style.css.map */

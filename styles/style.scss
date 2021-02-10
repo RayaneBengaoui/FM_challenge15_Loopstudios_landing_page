@@ -1,6 +1,8 @@
 @import "./variables";
 
-html {
+//Global Styling
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,4 +24,51 @@ li,
 p {
   font-family: "Alata", sans-serif;
   font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+.spacing {
+  width: 80%;
+  margin: auto;
+}
+
+//Header
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 65vh;
+}
+
+nav {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 30rem;
+}
+
+li {
+  color: $white;
+}
+
+h1 {
+  color: $white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  max-width: 40rem;
+  margin-top: 8rem;
+  border: 2px solid white;
+  padding: 2rem 5rem 2rem 3rem;
 }
