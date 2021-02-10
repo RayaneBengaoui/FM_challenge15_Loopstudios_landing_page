@@ -5,3 +5,21 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+li,
+p {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
