@@ -46,6 +46,16 @@ li {
   list-style: none;
 }
 
+button {
+  padding: 0.8rem 2.5rem;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  border: 1px solid black;
+}
+
 .spacing {
   // width: 70%;
   max-width: 1100px;
