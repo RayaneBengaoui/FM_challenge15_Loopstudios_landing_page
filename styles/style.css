@@ -50,7 +50,7 @@ button {
   cursor: pointer;
   letter-spacing: 3px;
   font-weight: bolder;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .spacing {
@@ -142,7 +142,24 @@ li {
   grid-gap: 2rem;
 }
 
-.card img {
-  width: 100%;
+.card {
+  position: relative;
+  background: img;
+  background-width: 100%;
+  background-opacity: 0.7;
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 8%;
+  left: 10%;
+  font-size: 2rem;
+  max-width: 12rem;
+  color: white;
+}
+
+#soccer-img {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(transparent)), url(../images/desktop/image-soccer-team.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url(../images/desktop/image-soccer-team.jpg);
 }
 /*# sourceMappingURL=style.css.map */

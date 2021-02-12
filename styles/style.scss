@@ -53,7 +53,7 @@ button {
   cursor: pointer;
   letter-spacing: 3px;
   font-weight: bolder;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .spacing {
@@ -136,7 +136,23 @@ li {
 }
 
 .card {
-  img {
+  position: relative;
+  background: img {
     width: 100%;
+    opacity: 0.7;
   }
+
+  h3 {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    font-size: 2rem;
+    max-width: 12rem;
+    color: $white;
+  }
+}
+
+#soccer-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-soccer-team.jpg);
 }
