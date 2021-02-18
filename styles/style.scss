@@ -131,8 +131,8 @@ li {
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-
   grid-gap: 2rem;
+  margin-bottom: 10rem;
 }
 
 .card {
@@ -182,4 +182,48 @@ li {
 #fisheye-img {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
     url(../images/desktop/image-fisheye.jpg);
+}
+
+// Footer
+
+footer {
+  min-height: 17vh;
+  background: $black;
+
+  .spacing {
+    display: flex;
+  }
+
+  ul {
+    justify-content: space-between;
+
+    min-width: 25rem;
+
+    li {
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.left-section {
+  height: 17vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  img {
+    width: 9rem;
+    margin-bottom: 1rem;
+  }
+}
+.right-section {
+  height: 1èvh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
