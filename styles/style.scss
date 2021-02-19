@@ -196,7 +196,6 @@ footer {
 
   ul {
     justify-content: space-between;
-
     min-width: 25rem;
 
     li {
@@ -220,10 +219,20 @@ footer {
   }
 }
 .right-section {
-  height: 1èvh;
+  height: 17vh;
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+
+  ul {
+    justify-content: space-between;
+    min-width: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
 }
