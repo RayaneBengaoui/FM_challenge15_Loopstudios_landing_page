@@ -74,6 +74,12 @@ button {
   letter-spacing: 3px;
   font-weight: bolder;
   border: 2px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 .spacing {
@@ -155,10 +161,52 @@ li {
   margin-bottom: 10rem;
 }
 
+.earth-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-deep-earth.jpg);
+}
+
+.arcade-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-night-arcade.jpg);
+}
+
+.soccer-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-soccer-team.jpg);
+}
+.grid-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-grid.jpg);
+}
+.vr-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-from-above.jpg);
+}
+.borealis-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-pocket-borealis.jpg);
+}
+.curiosity-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-curiosity.jpg);
+}
+.fisheye-img {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/desktop/image-fisheye.jpg);
+}
+
 .card {
   position: relative;
   width: 100%;
   height: 28rem;
+  cursor: pointer;
+  background-size: 100%;
+
+  transition: 1s ease;
+  &:hover {
+    background-size: 110%;
+  }
 
   h3 {
     position: absolute;
@@ -168,40 +216,6 @@ li {
     max-width: 12rem;
     color: $white;
   }
-}
-
-#earth-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-deep-earth.jpg);
-}
-#arcade-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-night-arcade.jpg);
-}
-
-#soccer-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-soccer-team.jpg);
-}
-#grid-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-grid.jpg);
-}
-#vr-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-from-above.jpg);
-}
-#borealis-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-pocket-borealis.jpg);
-}
-#curiosity-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-curiosity.jpg);
-}
-#fisheye-img {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
-    url(../images/desktop/image-fisheye.jpg);
 }
 
 // Footer
