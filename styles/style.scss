@@ -461,3 +461,55 @@ footer {
     justify-content: center;
   }
 }
+
+// Mobile view
+
+@media (max-width: 700px) {
+  //Header
+
+  .spacing {
+    max-width: 350px;
+  }
+
+  h1 {
+    color: $white;
+    font-size: 2.5rem;
+    max-width: 25srem;
+    margin-top: 8rem;
+    border: 2px solid white;
+    padding: 1.5rem 3rem 1.5rem 1.5rem;
+  }
+
+  //Interactive Section
+
+  .description-container {
+    max-width: 30rem;
+    padding: 2rem 0 0 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  //Creation Section
+
+  .top-container {
+    button {
+      bottom: -7%;
+    }
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+
+    margin-bottom: 10rem;
+  }
+
+  .card {
+    height: 8rem;
+
+    h3 {
+      font-size: 1.8rem;
+      max-width: 10rem;
+    }
+  }
+}
