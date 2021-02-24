@@ -422,4 +422,34 @@ footer {
       color: $white;
     }
   }
+
+  footer {
+    .spacing {
+      flex-direction: column;
+    }
+
+    ul {
+      justify-content: unset;
+      min-width: unset;
+    }
+  }
+
+  .left-section {
+    min-height: 30vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      flex-direction: column;
+      min-height: 18vh;
+      justify-content: space-between;
+    }
+  }
+  .right-section {
+    min-height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
