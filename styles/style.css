@@ -402,6 +402,9 @@ footer ul li {
   .description-container h2 {
     padding-bottom: 1rem;
   }
+  #creation-section {
+    position: relative;
+  }
   .top-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -410,6 +413,10 @@ footer ul li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .top-container button {
+    position: absolute;
+    bottom: -5%;
   }
   .cards-grid {
     -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];

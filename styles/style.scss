@@ -358,17 +358,24 @@ footer {
     }
   }
 
-  //Creation Section
+  //Creation Section Tablet
 
+  #creation-section {
+    position: relative;
+  }
   .top-container {
     display: flex;
     flex-direction: column;
+
+    button {
+      position: absolute;
+      bottom: -5%;
+    }
   }
 
   .cards-grid {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 
-    // grid-gap: 2rem;
     margin-bottom: 10rem;
   }
 
@@ -423,6 +430,7 @@ footer {
     }
   }
 
+  //Footer Tablet
   footer {
     .spacing {
       flex-direction: column;
